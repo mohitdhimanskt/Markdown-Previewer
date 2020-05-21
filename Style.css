@@ -26,3 +26,67 @@ body{
 .fa-free-code-camp {
     margin-left: 3px;
 }
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+        font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.toolbar .fa-arrows-alt, .toolbar .fa-compress {
+    position: absolute;
+    right: -5px;
+}
+.editorWrap textarea {
+    width: 99%;
+min-height: 200px;
+margin-bottom: -5px;
+resize: vertical;
+outline: none;
+padding-left: 5px;
+padding-top: 5px;
+font-size: 12px;
+}
+.colorScheme, .editorWrap textarea, .previewWrap {
+    background-color: #c0d8d8;
+    border: 1px solid #1d2f2f;
+        border-top-color: rgb(29, 47, 47);
+        border-top-style: solid;
+        border-top-width: 1px;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    border-top: none;
+}
+.converter{
+width: 100px;
+text-align: center;
+font-size: 35px;
+margin: auto;
+}
+.previewWrap {
+    width: 800px;
+    margin: 20px auto;
+    min-height: 200px;
+    overflow-wrap: break-word;
+    padding-right: 20px;
+}
+.previewWrap .toolbar {
+    left: -1px;
+    width: 100%;
+    padding-right: 17px;
+}
+.previewWrap {
+    overflow-wrap: break-word;
+}
+.previewWrap #preview {
+    margin-left: 5px;
+    margin-top: -10px;
+    width: 100%;
+}
+#preview, .title {
+    display: inline-block;
+}
+#preview h1 {
+    border-bottom: 2px solid #224B4B;
+}
